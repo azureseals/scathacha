@@ -235,6 +235,7 @@ client.on("message", (message) => {
     if (message.content.indexOf("sealtime") !== -1) {
         var d = new Date();
         var h = d.getHours();
+        h += 9;
         var m = d.getMinutes();
         if (m < 10) {
             m = "0" + m;
@@ -250,7 +251,7 @@ client.on("message", (message) => {
         else {
             stmsg = "The next strike time is at 21:00 seal time.";
         }
-        message.channel.send("Seal time is currently: " + (h + 8) % 24 + ":" + m + ". " + stmsg);
+        message.channel.send("Seal time is currently: " + h % 24 + ":" + m + ". " + stmsg);
     }
     if (message.content.indexOf("spark") !== -1) {
         var specialpool = legfest_SSR_weps;
