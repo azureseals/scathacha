@@ -233,7 +233,7 @@ const prefix = "%";
 client.on("message", (message) => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
     if (message.content.indexOf("lewd") !== -1) {
-        message.channel.send("Watch it!", {files: ["https://tenkarchive.files.wordpress.com/2017/08/tumblr_oulmnwyz6r1wq4i18o1_400.png?w=1140"]});
+        message.channel.send("Watch it!", {files: ["https://tenkarchive.files.wordpress.com/2017/08/tumblr_oulmnwyz6r1wq4i18o1_400.png"]});
     }
     if (message.content.indexOf("sealtime") !== -1) {
         var d = new Date();
