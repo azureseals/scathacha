@@ -232,6 +232,9 @@ flashfest_SSR_weps["Mirror Blade Shard"] = "Alexiel"
 const prefix = "%";
 client.on("message", (message) => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
+    if (message.content.indexOf("usrs") !== -1) {
+     message.channel.send("Are you serious?", {files: ["https://img.fireden.net/vg/image/1499/33/1499331417907.jpg"]});
+    }
     if (message.content.indexOf("lewd") !== -1) {
         message.channel.send("Watch it!", {files: ["https://tenkarchive.files.wordpress.com/2017/08/tumblr_oulmnwyz6r1wq4i18o1_400.png"]});
     }
