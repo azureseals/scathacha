@@ -109,7 +109,6 @@ SSR_weps["Returner Staff"] = "Yurius";
 SSR_weps["Ruler of Fate"] = "Zooey";
 SSR_weps["Ruling Pen"] = "Lunalu (SSR)";
 SSR_weps["Shadow Viperlance"] = "Azazel";
-SSR_weps["Taisai Spirit Bow"] = "Pholia";
 SSR_weps["Tiamat Bolt Prime"] = "Tiamat";
 SSR_weps["Two-by-Four"] = "Tsubasa";
 SSR_weps["White Hawk"] = "Cucouroux (SSR)";
@@ -228,6 +227,7 @@ flashfest_SSR_weps["Certificus"] = "Vira (Grand)"
 flashfest_SSR_weps["Fallen Sword"] = "Olivia"
 flashfest_SSR_weps["Galilei's Insight"] = "Europa"
 flashfest_SSR_weps["Mirror Blade Shard"] = "Alexiel"
+flashfest_SSR_weps["Taisai Spirit Bow"] = "Pholia";
 
 const prefix = "%";
 client.on("message", (message) => {
